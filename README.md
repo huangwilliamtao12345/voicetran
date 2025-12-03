@@ -3,7 +3,7 @@
 ```bash
 # Clone and install
 git clone https://github.com/huangwilliamtao12345/voicetran
-cd VoiceTrans
+cd voicetran
 chmod +x install.sh  # Make install script executable
 ./install.sh
 
