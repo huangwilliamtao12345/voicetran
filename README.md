@@ -10,7 +10,7 @@ chmod +x install.sh  # Make install script executable
 # Run interactive setup
 vtrans --setup
 
-# Start using VoiceTrans
+# Start using voicetran
 vtrans
 ```
 
@@ -36,7 +36,7 @@ vtrans --setup
 **Option B: Using config.json**
 ```bash
 # Copy the template in your working directory
-cp /path/to/VoiceTrans/config.json.template config.json
+cp /path/to/voicetran/config.json.template config.json
 
 # Edit config.json with your API keys
 nano config.json  # or use your preferred editor
@@ -66,10 +66,10 @@ voice_translation_YYYYMMDD_HHMMSS.txt
 
 ## Uninstallation
 
-To remove VoiceTrans from your system:
+To remove voicetran from your system:
 
 ```bash
-cd VoiceTrans
+cd voicetran
 ./uninstall.sh
 ```
 
